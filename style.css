@@ -2,11 +2,16 @@ body {
   background-color:#99ebff;
 }
 
-h1 {
+.header {
   text-align:center;
   color:#466c75;
 }
 
-footer {
+.content {
   font-size:20px;
+  color:#296c87;
+}
+
+.footer {
+  font-size:30px;
 }
