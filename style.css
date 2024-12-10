@@ -1,17 +1,171 @@
-body {
-  background-color:#99ebff;
+﻿body {
+    background-color: #bc8ad4;
+    font-family: Tahoma, sans-serif;
 }
 
 .header {
-  text-align:center;
-  color:#466c75;
+    text-align: center;
+    color: #70388a;
 }
 
-h2 .content {
-  font-size:20px;
-  color:#296c87;
+h1 {
+    font-size:35px
+}
+
+h2 {
+    font-size: 30px;
+    color: #70388a;
+}
+
+h3 {
+    font-size: 25px;
+    color: #70388a;
+}
+
+li {
+    font-size: 25px;
+    color: #4a255c;
 }
 
 .footer {
-  font-size:30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bit {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #70388a;
+}
+
+.pic {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #70388a;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    color: #70388a;
+    font-size:20px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #924ab5;
+}
+
+.nav-bar li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    background-color: #924ab5;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #ad58d6;
+}
+
+.nav {
+    width: 100%;
+    background-color: #6d3787;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.active {
+    background-color: #5a2d70 !important;
+    color: white;
+}
+
+@keyframes picture {
+    from {
+        width: 500px;
+    }
+    to {
+        width: 650px;
+    }
+}
+
+.pic:hover {
+    animation-name: picture;
+    animation-duration: 2s;
+    width: 500px;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    background-color: #bc8ad4;
+    border-radius: 15px;
+}
+
+@keyframes content {
+    from {
+        background-color: #bc8ad4;
+    }
+    to {
+        background-color: #a076b5;
+    }
+}
+
+.content:hover {
+    animation-name: content;
+    animation-duration: 2s;
+    background-color: #a076b5;
+}
+
+hr {
+    border-top: 5px dotted #954bb8;
+    border-bottom: none;
+}
+
+.money {
+    text-align: right;
+}
+
+.computer {
+    text-align: right;
+}
+
+.gym {
+    text-align: right;
+}
+
+.goals {
+    width: 500px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #70388a;
+}
+
+.goals:hover {
+    animation-name: picture;
+    animation-duration: 2s;
+    width: 650px;
 }
